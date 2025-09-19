@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Tim>
+
+<h2>Lista timova</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Naziv Tima</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tim in Model)
+        {
+                <tr>
+                    <td>@tim.timId</td>
+                    <td>@tim.nazivTima</td>
+                    <td><a href="@tim.timId">Izmeni Detalje o timu</a></td>
+                </tr>
+        }
+    </tbody>
+</table>

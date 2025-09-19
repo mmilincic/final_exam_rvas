@@ -1,0 +1,41 @@
+﻿@model Formula.Models.Staza
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="nazivStaze">Ime Staze</label>
+        <input asp-for="nazivStaze" id="nazivStaze" class="form-control" minLenght="1" required value="@Model.nazivStaze"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="duzina">Duzina Staze u KM</label>
+        <input asp-for="duzina" id="duzina" class="form-control" required title="Mora da bude broj" value="@Model.duzina"/>
+    </div>
+
+    <input type="submit" class="aero" value="Submit"/>
+    <a asp-action="Index" class="aero danger"></a>
+</form>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+    const nazivStazeInput = document.getElementById('nazivStaze');
+    const duzinaInput = document.getElementById('duzina');
+
+    if (nazivStazeInput.value.trim() === '') {
+        alert('Naziv staze je obavezan!');
+        event.preventDefault();
+        return;
+    }
+
+    if (parseFloat(duzinaInput.value) <= 0) {
+        alert('Dužina staze mora biti veća od nule!');
+        event.preventDefault();
+        return;
+    }
+
+    alert('Forma je uspešno validirana!');
+});
+</script>

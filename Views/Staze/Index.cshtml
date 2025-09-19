@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Staza>
+
+<h2>Lista Staza</h2>
+<p>Pretrazi Staze</p>
+<input type="text" id="pregledaj" placeholder="Pretraži..." />
+<table id="stazeTable" class="display" class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Naziv Staze</th>
+            <th>Duzina</th>
+            <th><a href="staze/create">Dodaj stazu</a></th>
+            <th>Obriši akcija</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var staza in Model)
+        {
+                <tr>
+                    <td>@staza.stazaId</td>
+                    <td>@staza.nazivStaze</td>
+                     <td>@staza.duzina</td>
+                    <td><a href="/staze/edit/@staza.stazaId/">Izmeni Detalje o stazi</a></td>
+                    <td><a href="/staze/delete/@staza.stazaId">Obriši stazu</a></td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"/>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var table = $('#stazeTable').DataTable({
+            "searching": false
+        });
+
+        $('#pregledaj').on('keyup', function() {
+            table.search(this.value).draw();
+        });
+    });
+</script>

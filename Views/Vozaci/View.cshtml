@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Formula.Models.Vozac>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>View</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.prezime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nacionalnost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.brojVozaca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datumRodjenja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tim)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prezime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nacionalnost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brojVozaca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datumRodjenja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tim.nazivTima)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.vozacId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.vozacId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.vozacId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
