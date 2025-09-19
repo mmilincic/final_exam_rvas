@@ -12,7 +12,7 @@ namespace Formula.Models
         public string? nazivStaze { get; set; }
         [Required]
         public float duzina { get; set; }
-        //public ICollection<Trke>? Trke { get; set; }
+        public ICollection<Trke>? Trke { get; set; }
 
     }
 }

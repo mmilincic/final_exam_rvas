@@ -1,5 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model IEnumerable<Trke>
+
+<h2>Lista Vozaca</h2>
+
+<table id="stazeTable" class="display table table-striped">
+    <thead>
+        <tr>
+            <th>Datum Trke</th>
+            <th>Staza</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trka in Model)
+        {
+                <tr>
+                    <td>@trka.datumTrke</td>
+                    <td>@trka.?Staza.nazivStaze</td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function() {
+        var table = $('#stazeTable').DataTable({
+            "searching": false
+        });
+
+        $('#pregledaj').on('keyup', function() {
+            table.search(this.value).draw();
+        });
+    });
+</script>

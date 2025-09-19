@@ -13,9 +13,9 @@ namespace Formula.Models
 
         //public ICollection<Staza>? stazas{ get; set; }
         //[ForeignKey("Staza")]
-        //public int staza { get; set; }
+        public int staza { get; set; }
 
-        //public Staza Staza { get; set; }
+        public Staza? Staza { get; set; }
 
     }
 }

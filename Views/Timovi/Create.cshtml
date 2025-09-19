@@ -1,0 +1,31 @@
+﻿@model Formula.Models.Tim
+
+@{
+    ViewData["Title"] = "Dodaj Tim";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="nazivTima">Ime Tima</label>
+        <input asp-for="nazivTima" id="tim" class="form-control" required/>
+    </div>
+
+    <input type="submit" class="aero" value="Submit"/>
+    <a asp-action="Index" class="aero danger"></a>
+</form>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+    const tim = document.getElementById('tim');
+
+    if (tim.value.trim() === '') {
+        alert('Naziv staze je obavezan!');
+        event.preventDefault();
+        return;
+    }
+});
+</script>

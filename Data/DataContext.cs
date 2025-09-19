@@ -12,7 +12,7 @@ namespace F1App.Data
         // Domenski objekti
         public DbSet<Tim> Timovi { get; set; }
         public DbSet<Vozac> Vozaci { get; set; }
-        //public DbSet<Trke> Trke { get; set; }
+        public DbSet<Trke> Trke { get; set; }
         public DbSet<Rezultat> Rezultati { get; set; }
         public DbSet<Staza> Staze{ get; set; }
 
@@ -35,19 +35,18 @@ namespace F1App.Data
             modelBuilder.Entity<Vozac>()
                 .HasKey(v => v.vozacId);
 
-
             modelBuilder.Entity<Vozac>()
                 .HasMany(v => v.sponzori)
                 .WithMany(s => s.vozaci);
 
+            modelBuilder.Entity<Staza>()
+                .HasKey(s => s.stazaId);
 
-            modelBuilder.Entity<Rezultat>()
-                .HasKey(r => r.rezultatId);
+            modelBuilder.Entity<Trke>()
+                .HasOne(t => t.Staza)
+                .WithMany(s => s.Trke)
+                .HasForeignKey(t => t.staza);
 
-            modelBuilder.Entity<Rezultat>()
-                .HasOne(r => r.vozac)
-                .WithMany(v => v.rezultati)
-                .HasForeignKey(r => r.vozacId);
         }
     }
 }

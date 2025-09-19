@@ -1,24 +1,23 @@
 ﻿using F1App.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Formula.Models;
 
 namespace Formula.Controllers
 {
-    public class TimKontroler : Controller
+    public class TrkeController : Controller
     {
         private readonly DataContext _context;
 
-        
-        public TimKontroler(DataContext context)
+
+        public TrkeController(DataContext context)
         {
             _context = context;
         }
 
         public IActionResult Index()
         {
-            var timovi = _context.Staze;
-            return View(timovi);
+            var trke = _context.Trke.Include(s => s.Staza).ToList();
+            return View(trke);
         }
     }
 }

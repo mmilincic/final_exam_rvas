@@ -3,48 +3,28 @@
   "WorkspaceRootPath": "E:\\Slike i Video\\fax\\RVAS\\Formula\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\controllers\\trkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:controllers\\trkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\views\\trke\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:views\\trke\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\models\\trke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:models\\trke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\models\\staza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:models\\staza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\controllers\\stazecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:controllers\\stazecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\data\\appdatainit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:data\\appdatainit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\models\\vozac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:models\\vozac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\models\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:models\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\views\\staze\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:views\\staze\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\views\\vozaci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:views\\vozaci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\models\\rezultati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:models\\rezultati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\controllers\\vozacicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:controllers\\vozacicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|e:\\slike i video\\fax\\rvas\\formula\\controllers\\timkontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB806158-72F1-4F34-B145-E1CC696D9380}|Formula.csproj|solutionrelative:controllers\\timkontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDataInit.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Data\\AppDataInit.cs",
-              "RelativeDocumentMoniker": "Data\\AppDataInit.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Data\\AppDataInit.cs",
-              "RelativeToolTip": "Data\\AppDataInit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:51:53.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tim.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Tim.cs",
-              "RelativeDocumentMoniker": "Models\\Tim.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Tim.cs",
-              "RelativeToolTip": "Models\\Tim.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:28:43.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StazeController.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\StazeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StazeController.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\StazeController.cs",
-              "RelativeToolTip": "Controllers\\StazeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:24:42.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Trke.cs",
               "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Trke.cs",
               "RelativeDocumentMoniker": "Models\\Trke.cs",
               "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Trke.cs",
               "RelativeToolTip": "Models\\Trke.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:26:17.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Staze\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Staze\\Index.cshtml",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Staze\\Index.cshtml",
-              "RelativeToolTip": "Views\\Staze\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T00:22:49.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Vozaci\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Vozaci\\Index.cshtml",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Vozaci\\Index.cshtml",
-              "RelativeToolTip": "Views\\Vozaci\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T00:20:42.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Rezultati.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Rezultati.cs",
-              "RelativeDocumentMoniker": "Models\\Rezultati.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Rezultati.cs",
-              "RelativeToolTip": "Models\\Rezultati.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:18:49.593Z",
+              "WhenOpened": "2025-09-19T11:42:47.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAApwA8AAAAtAAAAAAAAAA==",
+              "Title": "VozaciController.cs",
+              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\VozaciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VozaciController.cs",
+              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\VozaciController.cs",
+              "RelativeToolTip": "Controllers\\VozaciController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:18:32.81Z",
+              "WhenOpened": "2025-09-19T11:41:21.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Vozac.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Vozac.cs",
-              "RelativeDocumentMoniker": "Models\\Vozac.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Vozac.cs",
-              "RelativeToolTip": "Models\\Vozac.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:15:25.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCYAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Vozaci\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vozaci\\Index.cshtml",
+              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Vozaci\\Index.cshtml",
+              "RelativeToolTip": "Views\\Vozaci\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T23:49:44.606Z",
+              "WhenOpened": "2025-09-19T11:40:50.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Staza.cs",
-              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Staza.cs",
-              "RelativeDocumentMoniker": "Models\\Staza.cs",
-              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Models\\Staza.cs",
-              "RelativeToolTip": "Models\\Staza.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA4AAAA2AAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Trke\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trke\\Index.cshtml",
+              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Views\\Trke\\Index.cshtml",
+              "RelativeToolTip": "Views\\Trke\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T11:40:35.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimKontroler.cs",
+              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\TimKontroler.cs",
+              "RelativeDocumentMoniker": "Controllers\\TimKontroler.cs",
+              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\TimKontroler.cs",
+              "RelativeToolTip": "Controllers\\TimKontroler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:50:14Z",
+              "WhenOpened": "2025-09-19T11:39:35.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrkeController.cs",
+              "DocumentMoniker": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\TrkeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TrkeController.cs",
+              "ToolTip": "E:\\Slike i Video\\fax\\RVAS\\Formula\\Controllers\\TrkeController.cs",
+              "RelativeToolTip": "Controllers\\TrkeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:38:52.078Z",
               "EditorCaption": ""
             }
           ]
